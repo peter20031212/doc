@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Markdown Blog</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Docsify theme -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+
+<style>
+
+body{
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  background:#ffffff;
+}
+
+/* 主內容區域 */
+.markdown-section{
+  max-width:900px;
+  margin:auto;
+  font-size:16px;
+  line-height:1.7;
+}
+
+/* 標題顏色 */
+.markdown-section h1{
+  color:#1CB86E;
+  border-bottom:2px solid #e6e6e6;
+  padding-bottom:8px;
+}
+
+.markdown-section h2{
+  color:#1CB86E;
+  border-left:4px solid #1CB86E;
+  padding-left:10px;
+}
+
+.markdown-section h3{
+  color:#333;
+}
+
+/* 代碼 */
+.markdown-section pre{
+  background:#f6f8fa;
+  border-radius:6px;
+}
+
+/* 連結 */
+.markdown-section a{
+  color:#1CB86E;
+}
+
+/* 圖片 */
+.markdown-section img{
+  max-width:100%;
+  border-radius:6px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="app"></div>
+
+<script>
+window.$docsify = {
+  name: "My Blog",
+  loadSidebar: false
+}
+</script>
+
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+</body>
+</html>
